@@ -1,0 +1,17 @@
+{
+    "bootstrap": true,
+    "server": true,
+    "log_level": "DEBUG",
+    "enable_syslog": true,
+    "datacenter": "server1",
+    "addresses" : {
+      "http": "0.0.0.0"
+    },
+    "bind_addr": "192.168.1.2",
+    "node_name": "192.168.1.2",
+    "data_dir": "/home/vagrant/consuldata",
+    "ui_dir": "/home/vagrant/consul-ui",
+    "acl_datacenter": "server1",
+    "acl_default_policy": "allow",
+    "encrypt": "fd7HwHgZrcftveGC3B+J4g=="
+}
